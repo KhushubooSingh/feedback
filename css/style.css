@@ -1,0 +1,89 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ececec;
+    padding-top: 20px;
+}
+
+.feedback-form {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+    background-color: #e0ebeb;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-form h1 {
+    font-size: 1.75rem;
+    color: #142d4c;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+.form-group label {
+    font-weight: 600;
+}
+
+.form-control, .form-check-input {
+    border-radius: 4px;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+
+.form-check-label {
+    margin-right: 1rem;
+}
+
+.form-check-input {
+    margin-top: 0.3rem;
+}
+
+.btn {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.feedback-form textarea {
+    resize: vertical;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.fieldset-legend {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #495057;
+    margin-bottom: 1rem;
+}
+
+.fieldset-legend div {
+    font-weight: 400;
+    color: #6c757d;
+    margin-top: 0.5rem;
+}
+
+.response-form-heading{
+    font-size: 15px;
+    font-style: italic;
+}
+
+.feedback-heading{
+    text-decoration: underline;
+    color: #385170;
+}
+
